@@ -16,7 +16,7 @@ assert = chai.assert
 
 ```javascript
 // Read about the Google Contacts RAML API at http://api-portal.anypoint.mulesoft.com/onpositive/api/google-contacts-raml-api-0
-API.createClient('client', 'http://api-portal.anypoint.mulesoft.com/onpositive/api/google-contacts-raml-api-0/google_contacts.raml');
+API.createClient('client', '#DEFINITION_PAGE_NAME');
 ```
 
 ```javascript

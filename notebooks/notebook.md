@@ -16,12 +16,12 @@ assert = chai.assert
 
 ```javascript
 // Read about the Google Contacts RAML API at http://api-portal.anypoint.mulesoft.com/onpositive/api/google-contacts-raml-api-0
-API.createClient('client', 'http://api-portal.anypoint.mulesoft.com/onpositive/api/google-contacts-raml-api-0/google_contacts.raml');
+API.createClient('client', '#DEFINITION_PAGE_NAME');
 ```
 
 ```javascript
-clientId = "446158694252-9cajk3j5qp90qpsih40i7ekm8sm1v183.apps.googleusercontent.com",
-clientSecret = "FnNsrFaN00oLbrjDVs1PfNK4"
+clientId = prompt("Please, enter your Client ID")
+clientSecret = prompt("Please, enter your Client Secret")
 ```
 
 Auxiliary method to determine object ID.

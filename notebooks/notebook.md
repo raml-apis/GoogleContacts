@@ -1,7 +1,7 @@
 ---
 site: https://api-notebook.anypoint.mulesoft.com/notebooks#242f1b06a1a84ddccbd1
 apiNotebookVersion: 1.1.66
-title: Google Contacts (cloned)
+title: Google Contacts
 ---
 
 ```javascript
